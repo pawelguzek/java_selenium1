@@ -1,3 +1,11 @@
 apply plugin: "java"
 apply plugin: "application"
-mainClassName = "Test"
+mainClassName = "pl.guzek.Test"
+
+repositories{
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.testng:testng:6.11'
+}
