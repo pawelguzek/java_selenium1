@@ -8,9 +8,9 @@ public class GroupCreationTest extends TestBase {
     @Test
     public void testGroupCreation() {
 
-        app.getGroupHelper().returnToGroupPage();
+        app.getNavigationHelper().gotoGroupPage();
         app.getGroupHelper().initGroupCreation();
-        app.getGroupHelper().fillGroupForm(new GroupData("test1321", "test2321", "test331"));
+        app.getGroupHelper().fillGroupForm(new GroupData("qtest1321", "qtest2321", "qtest331"));
         app.getGroupHelper().sumbitGroupCreation();
         app.getNavigationHelper().gotoGroupPage();
     }
