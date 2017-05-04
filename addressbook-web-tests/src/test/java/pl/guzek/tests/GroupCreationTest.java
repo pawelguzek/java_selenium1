@@ -10,7 +10,7 @@ public class GroupCreationTest extends TestBase {
 
         app.getNavigationHelper().gotoGroupPage();
         app.getGroupHelper().initGroupCreation();
-        app.getGroupHelper().fillGroupForm(new GroupData("qtest1321", "qtest2321", "qtest331"));
+        app.getGroupHelper().fillGroupForm(new GroupData("Alfatest1321", "BetaTest", "YpsilonTest"));
         app.getGroupHelper().sumbitGroupCreation();
         app.getNavigationHelper().gotoGroupPage();
     }
