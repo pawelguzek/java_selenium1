@@ -15,10 +15,20 @@ public class NavigationHelper extends HelperBase {
     }
 
     public void gotoGroupPage() {
-        click(By.linkText("grupy"));
-    }
+        if (isElementPresent(By.tagName("h1"))
+                && wd.findElement(By.tagName("h1")).getText().equals("Grupy")
+                && isElementPresent(By.name("new"))) {return;}
+
+
+
+     click(By.linkText("grupy"));
+
+}
 
     public void gotoHomePage() {
+        if(isElementPresent(By.id("maintable"))){
+            return;
+        }
         click(By.linkText("strona główna"));
     }
 
