@@ -1,15 +1,8 @@
 package pl.guzek.tests;
 
-import org.hamcrest.CoreMatchers;
-import org.hamcrest.MatcherAssert;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import pl.guzek.model.GroupData;
 import pl.guzek.model.Groups;
-
-import java.util.Comparator;
-import java.util.List;
-import java.util.Set;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -20,7 +13,7 @@ public class GroupCreationTest extends TestBase {
     public void testGroupCreation() {
 
 
-        app.getNavigationHelper().goTo();
+        app.goTo().groupPage();
         Groups before = app.group().all();
         GroupData group = new GroupData().withName("Test1");
         app.group().create(group);
