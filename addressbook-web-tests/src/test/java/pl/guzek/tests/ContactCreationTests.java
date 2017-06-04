@@ -1,15 +1,19 @@
 package pl.guzek.tests;
-import org.apache.xpath.SourceTree;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pl.guzek.model.ContactData;
 import pl.guzek.model.Contacts;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
-import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ContactCreationTests extends TestBase {
+
 
     @Test
     public void ContactCreationTests() {
