@@ -5,10 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
- * Created by Pawel on 30.04.2017.
+ * Created by Pawel on 2016-12-10.
  */
 public class NavigationHelper extends HelperBase {
-
 
     public NavigationHelper(WebDriver wd) {
         super(wd);
@@ -16,20 +15,26 @@ public class NavigationHelper extends HelperBase {
 
     public void groupPage() {
         if (isElementPresent(By.tagName("h1"))
-                && wd.findElement(By.tagName("h1")).getText().equals("Grupy")
-                && isElementPresent(By.name("new"))) {return;}
+                && wd.findElement(By.tagName("h1")).getText().equals("Groups")
+                && isElementPresent(By.name("new"))) {
+            return;
+        }
+        click(By.linkText("grupy"));
+    }
 
+    public void newContact() {
+        if (isElementPresent(By.tagName("h1"))
+                && wd.findElement(By.tagName("h1")).getText().equals("Edytuj / dodaj wpis do książki adresowej\n" +
+                "\n")) {
+            return;
+        }
+        click(By.linkText("nowy wpis"));
+    }
 
-
-     click(By.linkText("grupy"));
-
-}
-
-    public void gotoHomePage() {
-        if(isElementPresent(By.id("maintable"))){
+    public void goToHomepage() {
+        if (isElementPresent(By.name("maintable"))) {
             return;
         }
         click(By.linkText("strona główna"));
     }
-
 }

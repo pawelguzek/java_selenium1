@@ -1,17 +1,16 @@
 package pl.guzek.tests;
-import org.hamcrest.CoreMatchers;
+
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pl.guzek.model.ContactData;
 import pl.guzek.model.Contacts;
-
-import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 /**
  * Created by Anna on 2016-12-11.
  */
-public class ContactModificationTests extends TestBase {
+public class ContactDeletionTests extends TestBase {
 
     @BeforeMethod
     public void ensurePreconditions() {
@@ -21,14 +20,14 @@ public class ContactModificationTests extends TestBase {
         }
     }
     @Test
-    public void testContactModification(){
+    public void testContactDeletion() {
         Contacts before = app.contact().all();
-        ContactData modifiedContact = before.iterator().next();
-        ContactData contact = new ContactData().withId(modifiedContact.getId()).withName("Jan").withSurname("Kowalski").withAddress("Zielona 7").withMobileNumber("123543123").withEmail1("kowalski@poczta.pl");
-        app.contact().modify(contact);
-        assertThat(app.contact().count(), equalTo(before.size()));
+        ContactData deletedContact = before.iterator().next();
+        app.contact().delete(deletedContact);
+        assertThat(app.contact().count(), equalTo(before.size()-1));
         Contacts after = app.contact().all();
-        assertThat(after, CoreMatchers.equalTo(before.without(modifiedContact).withAdded(contact)));
+        assertThat(after, equalTo(before.without(deletedContact)));
     }
+
 
 }

@@ -1,20 +1,6 @@
 package pl.guzek.appmanager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.BrowserType;
-import org.openqa.selenium.firefox.FirefoxDriver;
-//import sun.plugin2.util.BrowserType;
-;
-
-import java.util.Objects;
-import java.util.concurrent.TimeUnit;
-
-/**
- * Created by Pawel on 30.04.2017.
- */
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
@@ -22,7 +8,7 @@ import org.openqa.selenium.remote.BrowserType;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by Anna on 2016-12-10.
+ * Created by Pawel on 2016-12-10.
  */
 public class ApplicationManager {
 

@@ -1,10 +1,9 @@
 package pl.guzek.model;
-
 public class GroupData {
-    private int id = Integer.MAX_VALUE;
+
+    private int id  = Integer.MAX_VALUE;
     private String name;
     private String header;
-    private String footer;
 
     @Override
     public boolean equals(Object o) {
@@ -24,33 +23,15 @@ public class GroupData {
         return result;
     }
 
-    public String getName() {
-        return name;
+    public GroupData withId(int id) {
+        this.id = id;
+        return this;
     }
-
-    @Override
-    public String toString() {
-        return "GroupData{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                '}';
-    }
-
-    public String getHeader() {
-        return header;
-    }
-
-    public String getFooter() {
-        return footer;
-    }
-    public int getId() {
-        return id;
-    }
-
 
     public GroupData withName(String name) {
         this.name = name;
         return this;
+
     }
 
     public GroupData withHeader(String header) {
@@ -63,9 +44,29 @@ public class GroupData {
         return this;
     }
 
+    private String footer;
 
-    public GroupData withId(int id) {
-        this.id = id;
-        return this;
+
+    public String getName() {
+        return name;
+    }
+
+    public String getHeader() {
+        return header;
+    }
+
+    public String getFooter() {
+        return footer;
+    }
+
+    public int getId() { return id; }
+
+
+    @Override
+    public String toString() {
+        return "GroupData{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

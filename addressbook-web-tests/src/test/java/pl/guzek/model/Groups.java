@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Created by Pawel on 21.05.2017.
+ * Created by Pawel on 2017-01-08.
  */
 public class Groups extends ForwardingSet<GroupData> {
 
@@ -22,17 +22,16 @@ public class Groups extends ForwardingSet<GroupData> {
 
     @Override
     protected Set<GroupData> delegate() {
-
         return delegate;
     }
 
-    public Groups withAdded(GroupData group){
+    public Groups withAdded(GroupData group) {
         Groups groups = new Groups(this);
         groups.add(group);
         return groups;
     }
 
-    public Groups without(GroupData group){
+    public Groups without(GroupData group) {
         Groups groups = new Groups(this);
         groups.remove(group);
         return groups;
