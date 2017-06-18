@@ -1,0 +1,1396 @@
+445  [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+466  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+469  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+471  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+549  [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.1.0.Final}
+551  [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+583  [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+600  [main] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+600  [main] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+605  [main] DEBUG o.h.b.c.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+963  [main] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+988  [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+997  [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+1020 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@13e344d
+1021 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@13e344d
+1021 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@13e344d
+1023 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@20140db9
+1025 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@738dc9b
+1026 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@4145bad8
+1028 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@2e385cce
+1028 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@2e385cce
+1028 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@2e385cce
+1030 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@f0c8a99
+1030 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@f0c8a99
+1031 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@f0c8a99
+1033 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@54c5a2ff
+1033 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@54c5a2ff
+1034 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@54c5a2ff
+1036 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@6e6f2380
+1036 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@6e6f2380
+1037 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6e6f2380
+1038 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@78e4deb0
+1039 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@78e4deb0
+1039 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@78e4deb0
+1040 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@7674f035
+1041 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@7674f035
+1041 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@7674f035
+1042 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@27406a17
+1042 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@27406a17
+1043 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@27406a17
+1044 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@117159c0
+1045 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@117159c0
+1046 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@235ecd9f
+1046 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@235ecd9f
+1047 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@74d1dc36
+1047 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@74d1dc36
+1049 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@19e4653c
+1050 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@3a7442c7
+1051 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@cb0755b
+1052 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@cb0755b
+1054 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@79e4c792
+1054 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@79e4c792
+1056 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@7f485fda
+1056 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7f485fda
+1057 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@3f191845
+1058 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3f191845
+1058 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3f191845
+1060 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@5afa3c9
+1062 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@8458f04
+1062 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@8458f04
+1062 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@8458f04
+1063 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@7a35b0f5
+1065 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@645aa696
+1065 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@645aa696
+1066 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@33bc72d1
+1067 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@33bc72d1
+1068 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@353352b6
+1068 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@353352b6
+1070 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@2767e23c
+1070 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2767e23c
+1072 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@5b247367
+1073 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@5b247367
+1074 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@7e057f43
+1075 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@231f98ef
+1076 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@231f98ef
+1076 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@231f98ef
+1077 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@451001e5
+1078 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@451001e5
+1078 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@451001e5
+1079 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@24569dba
+1080 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@7188af83
+1080 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@7188af83
+1080 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@7188af83
+1081 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@303cf2ba
+1082 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@303cf2ba
+1082 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@303cf2ba
+1083 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@2b30a42c
+1084 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@792b749c
+1089 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@4d0d9fe7
+1090 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4d0d9fe7
+1090 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@536f2a7e
+1094 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@3de8f619
+1095 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3de8f619
+1097 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@48e1f6c7
+1097 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@48e1f6c7
+1098 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@480d3575
+1098 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@26abb146
+1099 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@5b7a7f33
+1102 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@6a8658ff
+1102 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6a8658ff
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@55de24cc
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@dc7df28
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@30f842ca
+1104 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@69c81773
+1104 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4d14b6c2
+1104 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7e990ed7
+1104 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@c05fddc
+1104 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@25df00a0
+1113 [main] WARN  org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+1118 [main] INFO  org.hibernate.orm.connections - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+1118 [main] INFO  org.hibernate.orm.connections - HHH10001001: Connection properties: {user=root, password=}
+1119 [main] INFO  org.hibernate.orm.connections - HHH10001003: Autocommit mode: false
+1121 [main] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+1122 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+1341 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.5.5-10.1.21-MariaDB
+      major : 5
+      minor : 5
+1365 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.39 ( Revision: 3289a357af6d09ecc1a10fd3c26e95183e5790ad )
+      major : 5
+      minor : 1
+1365 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.0
+1376 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+1390 [main] DEBUG o.h.e.j.c.i.StandardRefCursorSupport - Unexpected error trying to gauge level of JDBC REF_CURSOR support : null
+1408 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+1410 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+1444 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+1444 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+1445 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+1446 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+1446 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+1447 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+1448 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+1449 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+1450 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+1451 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+1452 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+1452 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+1452 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+1453 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+1478 [main] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+1505 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: pl.guzek.model.GroupData
+1536 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+1540 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name GroupData
+1543 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity pl.guzek.model.GroupData on table group_list
+1596 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_id, insertable=true, updatable=true, unique=false}
+1599 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+1602 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [pl.guzek.model.GroupData:id]
+1603 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+1605 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+1609 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_footer, insertable=true, updatable=true, unique=false}
+1609 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property footer with lazy=false
+1609 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [pl.guzek.model.GroupData:footer]
+1609 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for footer
+1609 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property footer
+1612 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_header, insertable=true, updatable=true, unique=false}
+1612 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property header with lazy=false
+1612 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [pl.guzek.model.GroupData:header]
+1613 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for header
+1613 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property header
+1613 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_name, insertable=true, updatable=true, unique=false}
+1613 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+1614 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [pl.guzek.model.GroupData:name]
+1614 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+1614 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name
+1615 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: pl.guzek.model.ContactData
+1615 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+1616 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name ContactData
+1616 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity pl.guzek.model.ContactData on table addressbook
+1619 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=id, insertable=true, updatable=true, unique=false}
+1619 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+1619 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [pl.guzek.model.ContactData:id]
+1619 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+1620 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+1620 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=home, insertable=true, updatable=true, unique=false}
+1620 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property homeNumber with lazy=false
+1620 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [pl.guzek.model.ContactData:homeNumber]
+1621 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for homeNumber
+1621 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property homeNumber
+1621 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=mobile, insertable=true, updatable=true, unique=false}
+1621 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property mobileNumber with lazy=false
+1621 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [pl.guzek.model.ContactData:mobileNumber]
+1622 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for mobileNumber
+1622 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property mobileNumber
+1622 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=firstname, insertable=true, updatable=true, unique=false}
+1623 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+1623 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [pl.guzek.model.ContactData:name]
+1623 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+1623 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name
+1624 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=photo, insertable=true, updatable=true, unique=false}
+1624 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property photo with lazy=false
+1624 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [pl.guzek.model.ContactData:photo]
+1625 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for photo
+1625 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property photo
+1625 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=lastname, insertable=true, updatable=true, unique=false}
+1626 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property surname with lazy=false
+1626 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [pl.guzek.model.ContactData:surname]
+1626 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for surname
+1626 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property surname
+1627 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=work, insertable=true, updatable=true, unique=false}
+1627 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property workNumber with lazy=false
+1627 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [pl.guzek.model.ContactData:workNumber]
+1628 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for workNumber
+1628 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property workNumber
+1629 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+1629 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for footer
+1629 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for header
+1630 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+1630 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+1630 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for homeNumber
+1630 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for mobileNumber
+1630 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+1630 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for photo
+1631 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for surname
+1631 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for workNumber
+1632 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [group_list]
+1633 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [addressbook]
+1660 [main] DEBUG o.h.internal.SessionFactoryImpl - Building session factory
+1661 [main] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+1661 [main] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): disabled
+1662 [main] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+1662 [main] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+1662 [main] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+1662 [main] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+1662 [main] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+1662 [main] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+1662 [main] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+1663 [main] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+1663 [main] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2
+1663 [main] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+1663 [main] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+1663 [main] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+1663 [main] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+1663 [main] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+1664 [main] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+1664 [main] DEBUG org.hibernate.cfg.Settings - JPA query language strict compliance: disabled
+1664 [main] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+1664 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache: enabled
+1664 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+1664 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@18c5069b
+1664 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+1665 [main] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+1665 [main] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+1665 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+1665 [main] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+1665 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+1666 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+1666 [main] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+1666 [main] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+1666 [main] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+1666 [main] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+1666 [main] DEBUG org.hibernate.cfg.Settings - Connection release mode: ON_CLOSE
+1667 [main] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+1714 [main] DEBUG o.h.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+1719 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiating session factory with properties: {java.vendor=Oracle Corporation, show_sql=true, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://localhost:3306/test, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Windows 10, hbm2ddl.auto=validate, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_131-b11, hibernate.cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, user.name=Pawel, connection.driver_class=com.mysql.jdbc.Driver, user.language=pl, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_131\jre\bin, dialect=org.hibernate.dialect.MySQLDialect, java.version=1.8.0_131, user.timezone=Europe/Belgrade, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1250, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=PL, connection.url=jdbc:mysql://localhost:3306/test, java.home=C:\Program Files\Java\jdk1.8.0_131\jre, java.vm.info=mixed mode, idea.test.cyclic.buffer.size=1048576, os.version=10.0, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@42e3ede4, path.separator=;, connection.password=, java.vm.version=25.131-b11, hibernate.connection.password=, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=root, user.script=, user.home=C:\Users\Pawel, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=validate, java.library.path=C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;%JAVA_HOME\bin%\bin;C:\Tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Users\Pawel\AppData\Local\Microsoft\WindowsApps;C:\Users\Pawel\AppData\Roaming\npm;C:\Users\Pawel\AppData\Local\atom\bin;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=root, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.testng.RemoteTestNGStarter -usedefaultlisteners false -socket61750 @w@C:\Users\Pawel\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Pawel\AppData\Local\Temp\idea_testng.tmp, java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.1\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.1\plugins\testng\lib\testng-plugin.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\workspace\java_selenium\qa_course\java_selenium1\java_selenium1\addressbook-web-tests\build\classes\test;C:\workspace\java_selenium\qa_course\java_selenium1\java_selenium1\addressbook-web-tests\build\resources\test;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.testng\testng\6.10\368d38d0f6906934b572e1a26441b6f47c58b134\testng-6.10.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-java\2.53.1\d90f85f4f389aa78b2d207ca1bfcca3fdefb71f0\selenium-java-2.53.1.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.hamcrest\java-hamcrest\2.0.0.0\f1c8853ade0ecf707f5a261c830e98893983813\java-hamcrest-2.0.0.0.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\com.beust\jcommander\1.58\f87aedf052aa17fa6d2557e5cc680a70bc6211f\jcommander-1.58.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\com.thoughtworks.xstream\xstream\1.4.9\c43f6e6bfa79b56e04a8898a923c3cf7144dd460\xstream-1.4.9.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.1.8\e54f49a227611976642f81cf2106b81c1ece8bf5\logback-classic-1.1.8.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\mysql\mysql-connector-java\5.1.39\4617fe8dc8f1969ec450984b0b9203bc8b7c8ad5\mysql-connector-java-5.1.39.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.1.0.Final\1b5ac619df76cfd67222ca7cddcee6b0a5db8d0c\hibernate-core-5.1.0.Final.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-chrome-driver\2.53.1\e8bb28896547d8bb6d9c11e4b103be563119fc5d\selenium-chrome-driver-2.53.1.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-edge-driver\2.53.1\8d7ce00b6d53fd2feebd12ae831c1b35e6577e96\selenium-edge-driver-2.53.1.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\htmlunit-driver\2.21\4c19c164835580db1d46887b43392dae0c255d50\htmlunit-driver-2.21.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-firefox-driver\2.53.1\5b1aa0babfb577310689a59b2ace7f342d40d70b\selenium-firefox-driver-2.53.1.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-ie-driver\2.53.1\63c8e86d544b39026c0f803ec3c863a144995ad6\selenium-ie-driver-2.53.1.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-safari-driver\2.53.1\731e322601f56f1867e665bcb0942e154277b0cd\selenium-safari-driver-2.53.1.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-support\2.53.1\af951906201e898e1d35a9ff63b297bb633d1d03\selenium-support-2.53.1.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-leg-rc\2.53.1\6ac994ea069b57e126e222374ed3ebbc85a08529\selenium-leg-rc-2.53.1.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\xmlpull\xmlpull\1.1.3.1\2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa\xmlpull-1.1.3.1.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\xpp3\xpp3_min\1.1.4c\19d4e90b43059058f6e056f794f0ea4030d60b86\xpp3_min-1.1.4c.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.1.8\b4d1c3dea91727faf8b3d19cf4b9b972d6c0b89\logback-core-1.1.8.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.21\139535a69a4239db087de9bab0bee568bf8e0b70\slf4j-api-1.7.21.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.3.0.Final\3616bb87707910296e2c195dc016287080bba5af\jboss-logging-3.3.0.Final.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\1.0.0.Final\5e731d961297e5a07290bfaf3db1fbc8bbbf405a\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.20.0-GA\a9cbcdfb7e9f86fbc74d3afae65f2248bfbf82a0\javassist-3.20.0-GA.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.apache.geronimo.specs\geronimo-jta_1.1_spec\1.1.1\aabab3165b8ea936b9360abbf448459c0d04a5a4\geronimo-jta_1.1_spec-1.1.1.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.0.0.Final\3e899258936f94649c777193e1be846387ed54b3\jandex-2.0.0.Final.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.3.0\183407ff982e9375f1a1c4a51ed0a9307c598fc7\classmate-1.3.0.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\dom4j\dom4j\1.6.1\5d3ccc056b6f056dbf0dddfdf43894b9065a8f94\dom4j-1.6.1.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.0.1.Final\71e1cff3fcb20d3b3af4f3363c3ddb24d33c6879\hibernate-commons-annotations-5.0.1.Final.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-remote-driver\2.53.1\5b049195915b0120259a063db049e1ffa874550e\selenium-remote-driver-2.53.1.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-exec\1.3\8dfb9facd0830a27b1b5f29f84593f0aeee7773b\commons-exec-1.3.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\net.sourceforge.htmlunit\htmlunit\2.21\3e752dae0006ad516bf6f4138316db7b262912d0\htmlunit-2.21.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\commons-collections\commons-collections\3.2.2\8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5\commons-collections-3.2.2.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.1.0\1c12d070e602efd8021891cdd7fd18bc129372d4\jna-4.1.0.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\4.1.0\23457ad1cf75c2c16763330de5565a0e67b4bc0a\jna-platform-4.1.0.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\io.netty\netty\3.5.7.Final\811465e6dfc89d7c78d21de6a9747b6046cb5403\netty-3.5.7.Final.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\cglib\cglib-nodep\2.1_3\58d3be5953547c0019e5704d6ed4ffda3b0c7c66\cglib-nodep-2.1_3.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-api\2.53.1\b00ff9f84bfa214fda742c1287a06d447e92910e\selenium-api-2.53.1.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\19.0\6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9\guava-19.0.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\xalan\xalan\2.7.2\d55d3f02a56ec4c25695fe67e1334ff8c2ecea23\xalan-2.7.2.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.4\5fe28b9518e58819180a43a850fbc0dd24b7c050\commons-lang3-3.4.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.5.2\22b4c53dd9b6761024258de8f9240c3dce6ea368\httpmime-4.5.2.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\net.sourceforge.htmlunit\htmlunit-core-js\2.17\4316d68f449d42f69faf4ee255aa31b03e4f7dd5\htmlunit-core-js-2.17.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\net.sourceforge.htmlunit\neko-htmlunit\2.21\a714aa20a2a6e04ada63805e1a16ad0540aa65e\neko-htmlunit-2.21.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\net.sourceforge.cssparser\cssparser\0.9.18\61c015378d27b5e245a5deb7a324c7e716b4706a\cssparser-0.9.18.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty.websocket\websocket-client\9.2.15.v20160210\ca9769107f3b8111102c5d4f482122dd116fb711\websocket-client-9.2.15.v20160210.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\xalan\serializer\2.7.2\24247f3bb052ee068971393bdb83e04512bb1c3c\serializer-2.7.2.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\xerces\xercesImpl\2.11.0\9bb329db1cfc4e22462c9d6b43a8432f5850e92c\xercesImpl-2.11.0.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.w3c.css\sac\1.3\cdb2dcb4e22b83d6b32b93095f644c3462739e82\sac-1.3.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-util\9.2.15.v20160210\ccd245541cc63311bdcfe551525bd7d82ea5e92c\jetty-util-9.2.15.v20160210.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-io\9.2.15.v20160210\5a3af41803c12b0f3628ed8927a8cedb42972169\jetty-io-9.2.15.v20160210.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty.websocket\websocket-common\9.2.15.v20160210\ee5616ec65d6c8f05fe16ee4dbb6723b2ebff470\websocket-common-9.2.15.v20160210.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty.websocket\websocket-api\9.2.15.v20160210\f0340017129a65097824dd62a04b3c887f397dd9\websocket-api-9.2.15.v20160210.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.2\733db77aa8d9b2d68015189df76ab06304406e50\httpclient-4.5.2.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.4\b31526a230871fbe285fbcbe2813f9c0839ae9b0\httpcore-4.4.4.jar;C:\Users\Pawel\.gradle\caches\modules-2\files-2.1\xml-apis\xml-apis\1.4.01\3789d9fada2d3d458c4ba2de349d48780f381ee3\xml-apis-1.4.01.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.1\plugins\testng\lib\jcommander.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.1\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=, connection.pool_size=1, java.io.tmpdir=C:\Users\Pawel\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, user.dir=C:\workspace\java_selenium\qa_course\java_selenium1\java_selenium1\addressbook-web-tests, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, file.encoding=UTF-8, java.specification.version=1.8, hibernate.connection.pool_size=1, hibernate.show_sql=true}
+1732 [main] DEBUG o.h.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+1769 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [pl.guzek.model.GroupData] is safe
+1769 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : pl.guzek.model.GroupData
+1787 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [pl.guzek.model.GroupData] is safe
+1788 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : pl.guzek.model.GroupData
+1886 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [pl.guzek.model.ContactData] is safe
+1893 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : pl.guzek.model.ContactData
+1893 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [pl.guzek.model.ContactData] is safe
+1893 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : pl.guzek.model.ContactData
+1904 [main] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: pl.guzek.model.GroupData
+1904 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select group_id from group_list where group_id =?
+1904 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select groupdata_.group_id, groupdata_.group_footer as group_fo2_1_, groupdata_.group_header as group_he3_1_, groupdata_.group_name as group_na4_1_ from group_list groupdata_ where groupdata_.group_id=?
+1904 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into group_list (group_footer, group_header, group_name, group_id) values (?, ?, ?, ?)
+1905 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update group_list set group_footer=?, group_header=?, group_name=? where group_id=?
+1905 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from group_list where group_id=?
+1925 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5dcbb60]
+1927 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+1927 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+1927 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+1928 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1947 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1952 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.GroupData, querySpaceUid=<gen:0>, path=pl.guzek.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+1955 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.GroupData [NONE]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+1956 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7eb01b12]
+1956 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+1956 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+1956 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+1956 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1957 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1957 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.GroupData, querySpaceUid=<gen:0>, path=pl.guzek.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+1957 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.GroupData [READ]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+1958 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@61d9efe0]
+1958 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+1958 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+1958 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+1958 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1959 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1959 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.GroupData, querySpaceUid=<gen:0>, path=pl.guzek.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+1959 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.GroupData [UPGRADE]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? for update
+1960 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@e6516e]
+1960 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+1960 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+1960 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+1960 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1961 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1961 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.GroupData, querySpaceUid=<gen:0>, path=pl.guzek.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+1961 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.GroupData [UPGRADE_NOWAIT]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? for update
+1962 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@43ed0ff3]
+1962 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+1962 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+1963 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+1963 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1963 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1963 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.GroupData, querySpaceUid=<gen:0>, path=pl.guzek.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+1964 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.GroupData [UPGRADE_SKIPLOCKED]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? for update
+1964 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@a50b09c]
+1964 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+1964 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+1965 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+1965 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1965 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1966 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.GroupData, querySpaceUid=<gen:0>, path=pl.guzek.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+1966 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.GroupData [FORCE]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? for update
+1967 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6691490c]
+1967 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+1967 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+1967 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+1968 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1968 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1968 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.GroupData, querySpaceUid=<gen:0>, path=pl.guzek.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+1969 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.GroupData [PESSIMISTIC_READ]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? lock in share mode
+1969 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2e5c7f0b]
+1970 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+1970 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+1970 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+1970 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1971 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1972 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.GroupData, querySpaceUid=<gen:0>, path=pl.guzek.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+1973 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.GroupData [PESSIMISTIC_WRITE]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? for update
+1973 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4de025bf]
+1973 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+1973 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+1973 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+1973 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1974 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1974 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.GroupData, querySpaceUid=<gen:0>, path=pl.guzek.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+1974 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.GroupData [PESSIMISTIC_FORCE_INCREMENT]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? for update
+1975 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1eef9aef]
+1975 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+1975 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+1975 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+1976 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1976 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1977 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.GroupData, querySpaceUid=<gen:0>, path=pl.guzek.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+1977 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.GroupData [OPTIMISTIC]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+1977 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5db99216]
+1978 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+1978 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+1978 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+1978 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1979 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1979 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.GroupData, querySpaceUid=<gen:0>, path=pl.guzek.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+1980 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.GroupData [OPTIMISTIC_FORCE_INCREMENT]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+2002 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity pl.guzek.model.GroupData: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+2002 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity pl.guzek.model.GroupData: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+2003 [main] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: pl.guzek.model.ContactData
+2003 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select id from addressbook where id =?
+2003 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select contactdat_.id, contactdat_.home as home2_0_, contactdat_.mobile as mobile3_0_, contactdat_.firstname as firstnam4_0_, contactdat_.photo as photo5_0_, contactdat_.lastname as lastname6_0_, contactdat_.work as work7_0_ from addressbook contactdat_ where contactdat_.id=?
+2003 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into addressbook (home, mobile, firstname, photo, lastname, work, id) values (?, ?, ?, ?, ?, ?, ?)
+2004 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update addressbook set home=?, mobile=?, firstname=?, photo=?, lastname=?, work=? where id=?
+2004 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from addressbook where id=?
+2004 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@ca27722]
+2004 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homeNumber
+2004 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobileNumber
+2005 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+2005 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+2005 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : surname
+2005 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workNumber
+2005 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2006 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2006 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.ContactData, querySpaceUid=<gen:0>, path=pl.guzek.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2006 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.ContactData [NONE]: select contactdat0_.id as id1_0_0_, contactdat0_.home as home2_0_0_, contactdat0_.mobile as mobile3_0_0_, contactdat0_.firstname as firstnam4_0_0_, contactdat0_.photo as photo5_0_0_, contactdat0_.lastname as lastname6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=?
+2006 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@9573b3b]
+2007 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homeNumber
+2007 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobileNumber
+2007 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+2007 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+2008 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : surname
+2008 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workNumber
+2008 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2008 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2009 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.ContactData, querySpaceUid=<gen:0>, path=pl.guzek.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2009 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.ContactData [READ]: select contactdat0_.id as id1_0_0_, contactdat0_.home as home2_0_0_, contactdat0_.mobile as mobile3_0_0_, contactdat0_.firstname as firstnam4_0_0_, contactdat0_.photo as photo5_0_0_, contactdat0_.lastname as lastname6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=?
+2009 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@78461bc4]
+2010 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homeNumber
+2010 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobileNumber
+2010 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+2010 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+2010 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : surname
+2011 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workNumber
+2011 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2011 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2012 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.ContactData, querySpaceUid=<gen:0>, path=pl.guzek.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2012 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.ContactData [UPGRADE]: select contactdat0_.id as id1_0_0_, contactdat0_.home as home2_0_0_, contactdat0_.mobile as mobile3_0_0_, contactdat0_.firstname as firstnam4_0_0_, contactdat0_.photo as photo5_0_0_, contactdat0_.lastname as lastname6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=? for update
+2012 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@64f857e7]
+2012 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homeNumber
+2013 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobileNumber
+2013 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+2038 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+2038 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : surname
+2038 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workNumber
+2039 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2039 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2040 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.ContactData, querySpaceUid=<gen:0>, path=pl.guzek.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2041 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.ContactData [UPGRADE_NOWAIT]: select contactdat0_.id as id1_0_0_, contactdat0_.home as home2_0_0_, contactdat0_.mobile as mobile3_0_0_, contactdat0_.firstname as firstnam4_0_0_, contactdat0_.photo as photo5_0_0_, contactdat0_.lastname as lastname6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=? for update
+2041 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@58c540cf]
+2041 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homeNumber
+2041 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobileNumber
+2042 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+2042 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+2042 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : surname
+2042 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workNumber
+2042 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2043 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2043 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.ContactData, querySpaceUid=<gen:0>, path=pl.guzek.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2043 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.ContactData [UPGRADE_SKIPLOCKED]: select contactdat0_.id as id1_0_0_, contactdat0_.home as home2_0_0_, contactdat0_.mobile as mobile3_0_0_, contactdat0_.firstname as firstnam4_0_0_, contactdat0_.photo as photo5_0_0_, contactdat0_.lastname as lastname6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=? for update
+2044 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1b822fcc]
+2044 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homeNumber
+2044 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobileNumber
+2044 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+2044 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+2045 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : surname
+2045 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workNumber
+2045 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2045 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2046 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.ContactData, querySpaceUid=<gen:0>, path=pl.guzek.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2046 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.ContactData [FORCE]: select contactdat0_.id as id1_0_0_, contactdat0_.home as home2_0_0_, contactdat0_.mobile as mobile3_0_0_, contactdat0_.firstname as firstnam4_0_0_, contactdat0_.photo as photo5_0_0_, contactdat0_.lastname as lastname6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=? for update
+2046 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@56102e1c]
+2046 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homeNumber
+2047 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobileNumber
+2047 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+2047 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+2047 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : surname
+2047 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workNumber
+2048 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2048 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2048 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.ContactData, querySpaceUid=<gen:0>, path=pl.guzek.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2049 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.ContactData [PESSIMISTIC_READ]: select contactdat0_.id as id1_0_0_, contactdat0_.home as home2_0_0_, contactdat0_.mobile as mobile3_0_0_, contactdat0_.firstname as firstnam4_0_0_, contactdat0_.photo as photo5_0_0_, contactdat0_.lastname as lastname6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=? lock in share mode
+2049 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7927bd9f]
+2050 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homeNumber
+2050 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobileNumber
+2050 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+2050 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+2050 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : surname
+2050 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workNumber
+2051 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2052 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2052 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.ContactData, querySpaceUid=<gen:0>, path=pl.guzek.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2052 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.ContactData [PESSIMISTIC_WRITE]: select contactdat0_.id as id1_0_0_, contactdat0_.home as home2_0_0_, contactdat0_.mobile as mobile3_0_0_, contactdat0_.firstname as firstnam4_0_0_, contactdat0_.photo as photo5_0_0_, contactdat0_.lastname as lastname6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=? for update
+2053 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@410954b]
+2053 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homeNumber
+2053 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobileNumber
+2053 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+2054 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+2054 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : surname
+2054 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workNumber
+2054 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2055 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2055 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.ContactData, querySpaceUid=<gen:0>, path=pl.guzek.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2055 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.ContactData [PESSIMISTIC_FORCE_INCREMENT]: select contactdat0_.id as id1_0_0_, contactdat0_.home as home2_0_0_, contactdat0_.mobile as mobile3_0_0_, contactdat0_.firstname as firstnam4_0_0_, contactdat0_.photo as photo5_0_0_, contactdat0_.lastname as lastname6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=? for update
+2056 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3b366632]
+2056 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homeNumber
+2056 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobileNumber
+2056 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+2057 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+2057 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : surname
+2057 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workNumber
+2057 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2058 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2058 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.ContactData, querySpaceUid=<gen:0>, path=pl.guzek.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2058 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.ContactData [OPTIMISTIC]: select contactdat0_.id as id1_0_0_, contactdat0_.home as home2_0_0_, contactdat0_.mobile as mobile3_0_0_, contactdat0_.firstname as firstnam4_0_0_, contactdat0_.photo as photo5_0_0_, contactdat0_.lastname as lastname6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=?
+2059 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@514eedd8]
+2059 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homeNumber
+2059 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobileNumber
+2059 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+2059 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+2060 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : surname
+2060 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workNumber
+2060 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2060 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2061 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=pl.guzek.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=pl.guzek.model.ContactData, querySpaceUid=<gen:0>, path=pl.guzek.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=pl.guzek.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2061 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity pl.guzek.model.ContactData [OPTIMISTIC_FORCE_INCREMENT]: select contactdat0_.id as id1_0_0_, contactdat0_.home as home2_0_0_, contactdat0_.mobile as mobile3_0_0_, contactdat0_.firstname as firstnam4_0_0_, contactdat0_.photo as photo5_0_0_, contactdat0_.lastname as lastname6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=?
+2062 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity pl.guzek.model.ContactData: select contactdat0_.id as id1_0_0_, contactdat0_.home as home2_0_0_, contactdat0_.mobile as mobile3_0_0_, contactdat0_.firstname as firstnam4_0_0_, contactdat0_.photo as photo5_0_0_, contactdat0_.lastname as lastname6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=?
+2062 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity pl.guzek.model.ContactData: select contactdat0_.id as id1_0_0_, contactdat0_.home as home2_0_0_, contactdat0_.mobile as mobile3_0_0_, contactdat0_.firstname as firstnam4_0_0_, contactdat0_.photo as photo5_0_0_, contactdat0_.lastname as lastname6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=?
+2062 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory
+3753 [main] DEBUG o.h.e.t.j.p.i.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+3754 [main] DEBUG o.h.e.t.j.p.i.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+3757 [main] DEBUG o.h.e.t.j.p.i.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3758 [main] DEBUG o.h.internal.NamedQueryRepository - Checking 0 named HQL queries
+3758 [main] DEBUG o.h.internal.NamedQueryRepository - Checking 0 named SQL queries
+3760 [main] DEBUG o.h.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@7a0e1b5e
+3761 [main] DEBUG o.h.internal.SessionFactoryRegistry - Registering SessionFactory: ea31f677-d68c-457b-9cd5-b4b3fb1e171d (<unnamed>)
+3762 [main] DEBUG o.h.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+19484 [main] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+19486 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+19497 [main] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@36361ddb
+19498 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+19544 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from pl.guzek.model.GroupData
+19554 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'from'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[DOT] Node: '.'
+                |  +-[DOT] Node: '.'
+                |  |  +-[IDENT] Node: 'pl'
+                |  |  \-[IDENT] Node: 'guzek'
+                |  \-[IDENT] Node: 'model'
+                \-[IDENT] Node: 'GroupData'
+
+19554 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+19586 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+19606 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : pl.guzek.model.GroupData (<no alias>) -> groupdata0_
+19606 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+19607 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} group_list groupdata0_ ) )
+19613 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created.
+19619 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [group_list groupdata0_]
+19620 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+19620 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (group_list)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'groupdata0_.group_id as group_id1_1_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=group_list,tableAlias=groupdata0_,origin=null,columns={,className=pl.guzek.model.GroupData}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[groupdata0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'group_list groupdata0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=group_list,tableAlias=groupdata0_,origin=null,columns={,className=pl.guzek.model.GroupData}}
+
+19620 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+19629 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from pl.guzek.model.GroupData
+19629 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
+19629 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+19642 [main] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
+19656 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+19659 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#3]
+19668 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1
+19669 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#5]
+19669 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2
+19669 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#7]
+19669 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3
+19669 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#8]
+19670 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4
+19670 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#9]
+19670 [main] DEBUG org.hibernate.loader.Loader - Result set row: 5
+19670 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#10]
+19671 [main] DEBUG org.hibernate.loader.Loader - Result set row: 6
+19671 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#14]
+19671 [main] DEBUG org.hibernate.loader.Loader - Result set row: 7
+19671 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#15]
+19672 [main] DEBUG org.hibernate.loader.Loader - Result set row: 8
+19672 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#17]
+19672 [main] DEBUG org.hibernate.loader.Loader - Result set row: 9
+19672 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#19]
+19673 [main] DEBUG org.hibernate.loader.Loader - Result set row: 10
+19673 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#21]
+19673 [main] DEBUG org.hibernate.loader.Loader - Result set row: 11
+19673 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#22]
+19674 [main] DEBUG org.hibernate.loader.Loader - Result set row: 12
+19674 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#23]
+19674 [main] DEBUG org.hibernate.loader.Loader - Result set row: 13
+19674 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#26]
+19675 [main] DEBUG org.hibernate.loader.Loader - Result set row: 14
+19675 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#27]
+19675 [main] DEBUG org.hibernate.loader.Loader - Result set row: 15
+19675 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#28]
+19676 [main] DEBUG org.hibernate.loader.Loader - Result set row: 16
+19676 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#29]
+19677 [main] DEBUG org.hibernate.loader.Loader - Result set row: 17
+19677 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#30]
+19677 [main] DEBUG org.hibernate.loader.Loader - Result set row: 18
+19678 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#31]
+19678 [main] DEBUG org.hibernate.loader.Loader - Result set row: 19
+19678 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#32]
+19678 [main] DEBUG org.hibernate.loader.Loader - Result set row: 20
+19678 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#33]
+19679 [main] DEBUG org.hibernate.loader.Loader - Result set row: 21
+19679 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#34]
+19679 [main] DEBUG org.hibernate.loader.Loader - Result set row: 22
+19679 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#35]
+19679 [main] DEBUG org.hibernate.loader.Loader - Result set row: 23
+19680 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#36]
+19680 [main] DEBUG org.hibernate.loader.Loader - Result set row: 24
+19680 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#37]
+19680 [main] DEBUG org.hibernate.loader.Loader - Result set row: 25
+19680 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#38]
+19681 [main] DEBUG org.hibernate.loader.Loader - Result set row: 26
+19681 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#39]
+19681 [main] DEBUG org.hibernate.loader.Loader - Result set row: 27
+19681 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#40]
+19681 [main] DEBUG org.hibernate.loader.Loader - Result set row: 28
+19682 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#41]
+19682 [main] DEBUG org.hibernate.loader.Loader - Result set row: 29
+19682 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#42]
+19682 [main] DEBUG org.hibernate.loader.Loader - Result set row: 30
+19682 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#43]
+19683 [main] DEBUG org.hibernate.loader.Loader - Result set row: 31
+19683 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#44]
+19683 [main] DEBUG org.hibernate.loader.Loader - Result set row: 32
+19684 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#45]
+19684 [main] DEBUG org.hibernate.loader.Loader - Result set row: 33
+19684 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#46]
+19685 [main] DEBUG org.hibernate.loader.Loader - Result set row: 34
+19685 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#47]
+19686 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#3]
+19688 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#3]
+19688 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#5]
+19688 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#5]
+19689 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#7]
+19689 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#7]
+19689 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#8]
+19689 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#8]
+19689 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#9]
+19690 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#9]
+19690 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#10]
+19690 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#10]
+19690 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#14]
+19691 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#14]
+19691 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#15]
+19691 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#15]
+19691 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#17]
+19691 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#17]
+19692 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#19]
+19692 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#19]
+19692 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#21]
+19692 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#21]
+19692 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#22]
+19692 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#22]
+19693 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#23]
+19693 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#23]
+19693 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#26]
+19693 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#26]
+19693 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#27]
+19693 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#27]
+19694 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#28]
+19694 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#28]
+19694 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#29]
+19694 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#29]
+19694 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#30]
+19694 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#30]
+19695 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#31]
+19695 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#31]
+19695 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#32]
+19695 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#32]
+19695 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#33]
+19695 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#33]
+19696 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#34]
+19696 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#34]
+19696 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#35]
+19696 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#35]
+19696 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#36]
+19696 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#36]
+19697 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#37]
+19697 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#37]
+19697 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#38]
+19697 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#38]
+19697 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#39]
+19698 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#39]
+19698 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#40]
+19698 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#40]
+19698 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#41]
+19698 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#41]
+19698 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#42]
+19699 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#42]
+19699 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#43]
+19699 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#43]
+19699 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#44]
+19699 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#44]
+19699 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#45]
+19700 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#45]
+19700 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#46]
+19700 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#46]
+19700 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#47]
+19701 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#47]
+19702 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+19703 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+19706 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+19709 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 35 objects
+19710 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+19711 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+19712 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=YpsilonTest, name=Alfatest1321, header=BetaTest, id=14}
+19712 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=Test1, name=Test1, header=Test1, id=15}
+19712 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=17}
+19712 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=19}
+19712 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=21}
+19712 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=22}
+19713 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=23}
+19713 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=, name=Test1, header=, id=26}
+19713 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=27}
+19713 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=, name=Test1, header=, id=28}
+19713 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer1, name=test1, header=header1, id=29}
+19713 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer2, name=test2, header=header2, id=30}
+19713 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer3, name=test3, header=header3, id=31}
+19714 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer1, name=test1, header=header1, id=32}
+19714 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer2, name=test2, header=header2, id=33}
+19714 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer3, name=test3, header=header3, id=34}
+19714 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 0, name=test 97, header=header 0, id=35}
+19714 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 1, name=test 98, header=header 1, id=36}
+19714 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 2, name=test 99, header=header 2, id=37}
+19715 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=38}
+19715 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=39}
+19715 [main] DEBUG o.h.internal.util.EntityPrinter - More......
+19722 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+19723 [main] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
+19724 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+19725 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#3]
+19725 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1
+19725 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#5]
+19726 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2
+19726 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#7]
+19726 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3
+19726 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#8]
+19727 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4
+19727 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#9]
+19727 [main] DEBUG org.hibernate.loader.Loader - Result set row: 5
+19727 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#10]
+19728 [main] DEBUG org.hibernate.loader.Loader - Result set row: 6
+19728 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#14]
+19728 [main] DEBUG org.hibernate.loader.Loader - Result set row: 7
+19728 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#15]
+19729 [main] DEBUG org.hibernate.loader.Loader - Result set row: 8
+19729 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#17]
+19729 [main] DEBUG org.hibernate.loader.Loader - Result set row: 9
+19729 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#19]
+19730 [main] DEBUG org.hibernate.loader.Loader - Result set row: 10
+19730 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#21]
+19730 [main] DEBUG org.hibernate.loader.Loader - Result set row: 11
+19730 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#22]
+19731 [main] DEBUG org.hibernate.loader.Loader - Result set row: 12
+19731 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#23]
+19731 [main] DEBUG org.hibernate.loader.Loader - Result set row: 13
+19731 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#26]
+19732 [main] DEBUG org.hibernate.loader.Loader - Result set row: 14
+19732 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#27]
+19733 [main] DEBUG org.hibernate.loader.Loader - Result set row: 15
+19733 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#28]
+19733 [main] DEBUG org.hibernate.loader.Loader - Result set row: 16
+19733 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#29]
+19734 [main] DEBUG org.hibernate.loader.Loader - Result set row: 17
+19734 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#30]
+19734 [main] DEBUG org.hibernate.loader.Loader - Result set row: 18
+19735 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#31]
+19735 [main] DEBUG org.hibernate.loader.Loader - Result set row: 19
+19735 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#32]
+19735 [main] DEBUG org.hibernate.loader.Loader - Result set row: 20
+19736 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#33]
+19736 [main] DEBUG org.hibernate.loader.Loader - Result set row: 21
+19736 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#34]
+19736 [main] DEBUG org.hibernate.loader.Loader - Result set row: 22
+19737 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#35]
+19737 [main] DEBUG org.hibernate.loader.Loader - Result set row: 23
+19737 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#36]
+19737 [main] DEBUG org.hibernate.loader.Loader - Result set row: 24
+19737 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#37]
+19738 [main] DEBUG org.hibernate.loader.Loader - Result set row: 25
+19738 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#38]
+19738 [main] DEBUG org.hibernate.loader.Loader - Result set row: 26
+19738 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#39]
+19738 [main] DEBUG org.hibernate.loader.Loader - Result set row: 27
+19739 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#40]
+19739 [main] DEBUG org.hibernate.loader.Loader - Result set row: 28
+19739 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#41]
+19739 [main] DEBUG org.hibernate.loader.Loader - Result set row: 29
+19740 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#42]
+19740 [main] DEBUG org.hibernate.loader.Loader - Result set row: 30
+19740 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#43]
+19740 [main] DEBUG org.hibernate.loader.Loader - Result set row: 31
+19740 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#44]
+19741 [main] DEBUG org.hibernate.loader.Loader - Result set row: 32
+19741 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#45]
+19741 [main] DEBUG org.hibernate.loader.Loader - Result set row: 33
+19741 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#46]
+19741 [main] DEBUG org.hibernate.loader.Loader - Result set row: 34
+19741 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#47]
+19742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#3]
+19742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#3]
+19742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#5]
+19742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#5]
+19743 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#7]
+19743 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#7]
+19743 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#8]
+19744 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#8]
+19744 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#9]
+19744 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#9]
+19744 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#10]
+19745 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#10]
+19745 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#14]
+19745 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#14]
+19745 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#15]
+19745 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#15]
+19745 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#17]
+19746 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#17]
+19746 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#19]
+19746 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#19]
+19747 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#21]
+19748 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#21]
+19749 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#22]
+19749 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#22]
+19749 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#23]
+19749 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#23]
+19750 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#26]
+19750 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#26]
+19750 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#27]
+19750 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#27]
+19750 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#28]
+19751 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#28]
+19751 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#29]
+19752 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#29]
+19752 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#30]
+19752 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#30]
+19752 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#31]
+19752 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#31]
+19753 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#32]
+19753 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#32]
+19753 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#33]
+19753 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#33]
+19753 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#34]
+19754 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#34]
+19754 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#35]
+19754 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#35]
+19754 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#36]
+19754 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#36]
+19755 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#37]
+19755 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#37]
+19755 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#38]
+19755 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#38]
+19756 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#39]
+19758 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#39]
+19759 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#40]
+19759 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#40]
+19761 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#41]
+19761 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#41]
+19762 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#42]
+19762 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#42]
+19762 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#43]
+19763 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#43]
+19763 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#44]
+19764 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#44]
+19764 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#45]
+19764 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#45]
+19764 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#46]
+19764 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#46]
+19765 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#47]
+19765 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#47]
+19769 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+19770 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+19770 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+19771 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 35 objects
+19771 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+19771 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+19772 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=YpsilonTest, name=Alfatest1321, header=BetaTest, id=14}
+19772 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=Test1, name=Test1, header=Test1, id=15}
+19772 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=17}
+19772 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=19}
+19772 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=21}
+19773 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=22}
+19773 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=23}
+19773 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=, name=Test1, header=, id=26}
+19773 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=27}
+19773 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=, name=Test1, header=, id=28}
+19774 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer1, name=test1, header=header1, id=29}
+19774 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer2, name=test2, header=header2, id=30}
+19774 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer3, name=test3, header=header3, id=31}
+19774 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer1, name=test1, header=header1, id=32}
+19774 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer2, name=test2, header=header2, id=33}
+19774 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer3, name=test3, header=header3, id=34}
+19775 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 0, name=test 97, header=header 0, id=35}
+19775 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 1, name=test 98, header=header 1, id=36}
+19775 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 2, name=test 99, header=header 2, id=37}
+19775 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=38}
+19775 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=39}
+19775 [main] DEBUG o.h.internal.util.EntityPrinter - More......
+26525 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+26532 [main] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
+26533 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+26534 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#3]
+26534 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1
+26534 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#5]
+26535 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2
+26535 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#7]
+26535 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3
+26535 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#8]
+26535 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4
+26536 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#9]
+26536 [main] DEBUG org.hibernate.loader.Loader - Result set row: 5
+26536 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#10]
+26536 [main] DEBUG org.hibernate.loader.Loader - Result set row: 6
+26537 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#14]
+26537 [main] DEBUG org.hibernate.loader.Loader - Result set row: 7
+26538 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#15]
+26538 [main] DEBUG org.hibernate.loader.Loader - Result set row: 8
+26538 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#17]
+26538 [main] DEBUG org.hibernate.loader.Loader - Result set row: 9
+26539 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#19]
+26539 [main] DEBUG org.hibernate.loader.Loader - Result set row: 10
+26539 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#21]
+26539 [main] DEBUG org.hibernate.loader.Loader - Result set row: 11
+26539 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#22]
+26540 [main] DEBUG org.hibernate.loader.Loader - Result set row: 12
+26540 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#23]
+26540 [main] DEBUG org.hibernate.loader.Loader - Result set row: 13
+26540 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#26]
+26540 [main] DEBUG org.hibernate.loader.Loader - Result set row: 14
+26541 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#27]
+26541 [main] DEBUG org.hibernate.loader.Loader - Result set row: 15
+26541 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#28]
+26541 [main] DEBUG org.hibernate.loader.Loader - Result set row: 16
+26541 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#29]
+26542 [main] DEBUG org.hibernate.loader.Loader - Result set row: 17
+26542 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#30]
+26543 [main] DEBUG org.hibernate.loader.Loader - Result set row: 18
+26543 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#31]
+26543 [main] DEBUG org.hibernate.loader.Loader - Result set row: 19
+26543 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#32]
+26546 [main] DEBUG org.hibernate.loader.Loader - Result set row: 20
+26546 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#33]
+26547 [main] DEBUG org.hibernate.loader.Loader - Result set row: 21
+26547 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#34]
+26547 [main] DEBUG org.hibernate.loader.Loader - Result set row: 22
+26547 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#35]
+26548 [main] DEBUG org.hibernate.loader.Loader - Result set row: 23
+26548 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#36]
+26548 [main] DEBUG org.hibernate.loader.Loader - Result set row: 24
+26548 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#37]
+26548 [main] DEBUG org.hibernate.loader.Loader - Result set row: 25
+26549 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#38]
+26549 [main] DEBUG org.hibernate.loader.Loader - Result set row: 26
+26549 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#39]
+26549 [main] DEBUG org.hibernate.loader.Loader - Result set row: 27
+26550 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#40]
+26550 [main] DEBUG org.hibernate.loader.Loader - Result set row: 28
+26550 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#41]
+26550 [main] DEBUG org.hibernate.loader.Loader - Result set row: 29
+26551 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#42]
+26551 [main] DEBUG org.hibernate.loader.Loader - Result set row: 30
+26551 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#43]
+26551 [main] DEBUG org.hibernate.loader.Loader - Result set row: 31
+26551 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#44]
+26552 [main] DEBUG org.hibernate.loader.Loader - Result set row: 32
+26552 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#45]
+26552 [main] DEBUG org.hibernate.loader.Loader - Result set row: 33
+26552 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#46]
+26552 [main] DEBUG org.hibernate.loader.Loader - Result set row: 34
+26552 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#47]
+26553 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#3]
+26553 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#3]
+26553 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#5]
+26553 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#5]
+26553 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#7]
+26554 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#7]
+26554 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#8]
+26554 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#8]
+26554 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#9]
+26554 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#9]
+26554 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#10]
+26555 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#10]
+26555 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#14]
+26555 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#14]
+26555 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#15]
+26555 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#15]
+26555 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#17]
+26556 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#17]
+26556 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#19]
+26556 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#19]
+26556 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#21]
+26556 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#21]
+26556 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#22]
+26557 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#22]
+26557 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#23]
+26557 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#23]
+26557 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#26]
+26557 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#26]
+26557 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#27]
+26557 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#27]
+26558 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#28]
+26558 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#28]
+26558 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#29]
+26558 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#29]
+26558 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#30]
+26559 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#30]
+26559 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#31]
+26559 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#31]
+26559 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#32]
+26559 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#32]
+26559 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#33]
+26560 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#33]
+26560 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#34]
+26560 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#34]
+26560 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#35]
+26560 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#35]
+26560 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#36]
+26561 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#36]
+26561 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#37]
+26561 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#37]
+26561 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#38]
+26561 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#38]
+26562 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#39]
+26562 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#39]
+26562 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#40]
+26562 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#40]
+26562 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#41]
+26562 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#41]
+26563 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#42]
+26563 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#42]
+26563 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#43]
+26563 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#43]
+26563 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#44]
+26564 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#44]
+26564 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#45]
+26564 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#45]
+26564 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#46]
+26564 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#46]
+26565 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#47]
+26565 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#47]
+26566 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+26566 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+26566 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+26567 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 35 objects
+26567 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+26567 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+26568 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=YpsilonTest, name=Alfatest1321, header=BetaTest, id=14}
+26568 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=Test1, name=Test1, header=Test1, id=15}
+26568 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=17}
+26568 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=19}
+26568 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=21}
+26568 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=22}
+26569 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=23}
+26569 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=, name=Test1, header=, id=26}
+26569 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=27}
+26569 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=, name=Test1, header=, id=28}
+26569 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer1, name=test1, header=header1, id=29}
+26569 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer2, name=test2, header=header2, id=30}
+26569 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer3, name=test3, header=header3, id=31}
+26570 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer1, name=test1, header=header1, id=32}
+26570 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer2, name=test2, header=header2, id=33}
+26570 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer3, name=test3, header=header3, id=34}
+26570 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 0, name=test 97, header=header 0, id=35}
+26570 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 1, name=test 98, header=header 1, id=36}
+26570 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 2, name=test 99, header=header 2, id=37}
+26571 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=38}
+26571 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=39}
+26571 [main] DEBUG o.h.internal.util.EntityPrinter - More......
+26572 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+26572 [main] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
+26573 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+26574 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#3]
+26574 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1
+26574 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#5]
+26575 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2
+26575 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#7]
+26575 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3
+26575 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#8]
+26576 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4
+26576 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#9]
+26576 [main] DEBUG org.hibernate.loader.Loader - Result set row: 5
+26576 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#10]
+26576 [main] DEBUG org.hibernate.loader.Loader - Result set row: 6
+26577 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#14]
+26577 [main] DEBUG org.hibernate.loader.Loader - Result set row: 7
+26577 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#15]
+26577 [main] DEBUG org.hibernate.loader.Loader - Result set row: 8
+26577 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#17]
+26578 [main] DEBUG org.hibernate.loader.Loader - Result set row: 9
+26578 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#19]
+26578 [main] DEBUG org.hibernate.loader.Loader - Result set row: 10
+26578 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#21]
+26579 [main] DEBUG org.hibernate.loader.Loader - Result set row: 11
+26579 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#22]
+26579 [main] DEBUG org.hibernate.loader.Loader - Result set row: 12
+26579 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#23]
+26579 [main] DEBUG org.hibernate.loader.Loader - Result set row: 13
+26580 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#26]
+26580 [main] DEBUG org.hibernate.loader.Loader - Result set row: 14
+26580 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#27]
+26580 [main] DEBUG org.hibernate.loader.Loader - Result set row: 15
+26581 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#28]
+26581 [main] DEBUG org.hibernate.loader.Loader - Result set row: 16
+26581 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#29]
+26581 [main] DEBUG org.hibernate.loader.Loader - Result set row: 17
+26582 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#30]
+26582 [main] DEBUG org.hibernate.loader.Loader - Result set row: 18
+26582 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#31]
+26582 [main] DEBUG org.hibernate.loader.Loader - Result set row: 19
+26583 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#32]
+26583 [main] DEBUG org.hibernate.loader.Loader - Result set row: 20
+26583 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#33]
+26584 [main] DEBUG org.hibernate.loader.Loader - Result set row: 21
+26584 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#34]
+26584 [main] DEBUG org.hibernate.loader.Loader - Result set row: 22
+26584 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#35]
+26585 [main] DEBUG org.hibernate.loader.Loader - Result set row: 23
+26597 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#36]
+26598 [main] DEBUG org.hibernate.loader.Loader - Result set row: 24
+26598 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#37]
+26598 [main] DEBUG org.hibernate.loader.Loader - Result set row: 25
+26598 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#38]
+26599 [main] DEBUG org.hibernate.loader.Loader - Result set row: 26
+26599 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#39]
+26599 [main] DEBUG org.hibernate.loader.Loader - Result set row: 27
+26599 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#40]
+26599 [main] DEBUG org.hibernate.loader.Loader - Result set row: 28
+26600 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#41]
+26600 [main] DEBUG org.hibernate.loader.Loader - Result set row: 29
+26600 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#42]
+26600 [main] DEBUG org.hibernate.loader.Loader - Result set row: 30
+26600 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#43]
+26601 [main] DEBUG org.hibernate.loader.Loader - Result set row: 31
+26601 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#44]
+26601 [main] DEBUG org.hibernate.loader.Loader - Result set row: 32
+26601 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#45]
+26601 [main] DEBUG org.hibernate.loader.Loader - Result set row: 33
+26602 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#46]
+26602 [main] DEBUG org.hibernate.loader.Loader - Result set row: 34
+26602 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[pl.guzek.model.GroupData#47]
+26602 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#3]
+26603 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#3]
+26603 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#5]
+26603 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#5]
+26603 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#7]
+26603 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#7]
+26603 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#8]
+26604 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#8]
+26604 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#9]
+26604 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#9]
+26604 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#10]
+26604 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#10]
+26605 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#14]
+26605 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#14]
+26605 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#15]
+26605 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#15]
+26605 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#17]
+26605 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#17]
+26606 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#19]
+26606 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#19]
+26606 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#21]
+26606 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#21]
+26606 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#22]
+26606 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#22]
+26607 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#23]
+26607 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#23]
+26607 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#26]
+26607 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#26]
+26607 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#27]
+26608 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#27]
+26608 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#28]
+26608 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#28]
+26608 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#29]
+26608 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#29]
+26608 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#30]
+26609 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#30]
+26609 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#31]
+26609 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#31]
+26609 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#32]
+26609 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#32]
+26609 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#33]
+26610 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#33]
+26610 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#34]
+26610 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#34]
+26610 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#35]
+26610 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#35]
+26610 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#36]
+26611 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#36]
+26611 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#37]
+26611 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#37]
+26611 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#38]
+26611 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#38]
+26611 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#39]
+26612 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#39]
+26612 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#40]
+26612 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#40]
+26612 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#41]
+26612 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#41]
+26612 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#42]
+26613 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#42]
+26613 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#43]
+26613 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#43]
+26613 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#44]
+26613 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#44]
+26613 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#45]
+26614 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#45]
+26614 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#46]
+26614 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#46]
+26614 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [pl.guzek.model.GroupData#47]
+26638 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [pl.guzek.model.GroupData#47]
+26639 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+26639 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+26640 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+26640 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 35 objects
+26641 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+26641 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+26641 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=YpsilonTest, name=Alfatest1321, header=BetaTest, id=14}
+26641 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=Test1, name=Test1, header=Test1, id=15}
+26641 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=17}
+26641 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=19}
+26642 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=21}
+26642 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=22}
+26642 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=23}
+26642 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=, name=Test1, header=, id=26}
+26642 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=test3, name=test1, header=test2, id=27}
+26642 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=, name=Test1, header=, id=28}
+26643 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer1, name=test1, header=header1, id=29}
+26643 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer2, name=test2, header=header2, id=30}
+26643 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer3, name=test3, header=header3, id=31}
+26643 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer1, name=test1, header=header1, id=32}
+26643 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer2, name=test2, header=header2, id=33}
+26643 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer3, name=test3, header=header3, id=34}
+26643 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 0, name=test 97, header=header 0, id=35}
+26644 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 1, name=test 98, header=header 1, id=36}
+26644 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 2, name=test 99, header=header 2, id=37}
+26644 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=38}
+26644 [main] DEBUG o.h.internal.util.EntityPrinter - pl.guzek.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=39}
+26645 [main] DEBUG o.h.internal.util.EntityPrinter - More......
+31341 [pool-1-thread-1] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Connection pool now considered primed; min-size will be maintained

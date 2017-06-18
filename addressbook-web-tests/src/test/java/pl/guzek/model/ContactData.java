@@ -1,24 +1,50 @@
 package pl.guzek.model;
+import org.hibernate.annotations.Type;
+
+import javax.persistence.*;
 import java.io.File;
 
+@Entity
+@Table(name= "addressbook")
 public class ContactData {
+    @Id
+    @Column(name= "id")
     private int id  = Integer.MAX_VALUE;
+    @Column(name= "firstname")
     private String name;
+    @Column(name= "lastname")
     private String surname;
+
+    @Transient
     private String address;
-    private String homeNumber;
-    private String mobileNumber;
-    private String workNumber;
+    @Transient
     private String allPhones;
+
+    @Column(name= "home")
+    @Type(type = "text")
+    private String homeNumber;
+    @Column(name= "mobile")
+    @Type(type = "text")
+    private String mobileNumber;
+    @Column(name= "work")
+    @Type(type = "text")
+    private String workNumber;
+    @Transient
     private String email1;
-    private File photo;
+    @Column(name= "photo")
+    @Type(type="text")
+    private String photo;
+    @Transient
+    private String group;
+    @Transient
+    private String namesAndSurname;
 
     public File getPhoto() {
-        return photo;
+        return new File (photo);
     }
 
     public ContactData withPhoto(File photo) {
-        this.photo = photo;
+        this.photo = photo.getPath();
         return this;
     }
 
@@ -27,7 +53,7 @@ public class ContactData {
         return this;
     }
 
-    private String namesAndSurname;
+
 
     public String getNamesAndSurname() {
         return namesAndSurname;
@@ -110,7 +136,7 @@ public class ContactData {
         return this;
     }
 
-    private String group;
+
 
 
     public String getName() {
